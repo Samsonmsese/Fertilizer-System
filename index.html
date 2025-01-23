@@ -3,52 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samson's Portfolio</title>
+  <title>Soil Fertilizer Management System</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    header { text-align: center; margin-bottom: 20px; }
-    h1 { color: #333; }
-    section { margin: 20px 0; }
-    footer { text-align: center; margin-top: 20px; font-size: 0.9em; color: #777; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    img { max-width: 100%; height: auto; display: block; margin: 10px auto; }
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(to right, #2d89e5, #58c472);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+
+    /* Section Styling */
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 1200px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #2d89e5;
+    }
+
+    section p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* Gallery Section */
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 30%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      background-color: #2d89e5;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #58c472;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <!-- Header Section -->
   <header>
-    <h1>Samson Msese</h1>
-    <p>BSc Telecommunications Engineering | IoT & Robotics Enthusiast</p>
+    <h1>Soil Fertilizer Management System</h1>
+    <p>A Smart Agricultural Solution to Improve Farming Productivity</p>
   </header>
+
+  <!-- About Section -->
   <section>
-    <h2>About Me</h2>
+    <h2>About the System</h2>
     <p>
-      I leverage technology, including IoT and robotics, to solve societal challenges and improve lives. My recent focus has been on 
-      developing a Soil Fertilizer Management System to aid farmers in analyzing soil nutrients, suggesting suitable crops, and providing 
-      recommendations for fertilizer usage.
+      The Soil Fertilizer Management System is a portable device that analyzes soil nutrients, suggests suitable crops, and 
+      provides recommendations for optimal fertilizer usage. This system leverages IoT and advanced sensors to give farmers 
+      actionable insights, helping to boost agricultural productivity and promote sustainable farming practices.
     </p>
   </section>
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>IoT-Based Gas Cylinder System</strong> - A smart solution for gas cylinder monitoring.</li>
-      <li><strong>Automatic Bus Stop Display System</strong> - GPS-based bus tracking for better commuting.</li>
-      <li><strong>Soil Fertilizer Management System</strong> - A portable system to analyze soil nutrients, suggest crops, and 
-      recommend optimal fertilizer usage.</li>
-    </ul>
-  </section>
+
+  <!-- Gallery Section -->
   <section>
     <h2>Gallery</h2>
-    <p>Below is an image representing my Soil Fertilizer Management System project:</p>
-    <img src="soil-fertilizer.jpg" alt="Soil Fertilizer Management System">
+    <p>Here are some images showcasing the system in action:</p>
+    <div class="gallery">
+      <img src="soil-fertilizer.jpg" alt="Robot analyzing soil">
+      <img src="farm-setup.jpg" alt="Farm setup with system">
+      <img src="fertilizer-device.jpg" alt="Device close-up">
+    </div>
   </section>
+
+  <!-- Contact Section -->
   <section>
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:smsese09@gmail.com">smsese@gmail.com</a></p>
+    <p>Feel free to reach out for collaborations or inquiries:</p>
+    <p>Email: <a href="mailto:smsese09@gmail.com">smsese09@gmail.com</a></p>
     <p>Phone: +255745623235</p>
   </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Samson Msese</p>
+    <p>© 2025 Samson George Msese | Built with ❤️ and passion</p>
+    <p>
+      Follow me on <a href="https://github.com/samsonmsese" target="_blank">GitHub</a>
+    </p>
   </footer>
 </body>
 </html>
